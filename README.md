@@ -9,7 +9,6 @@ Production-ready **ROS2 Jazzy** robot arm with **MoveIt2 path planning**. Built 
 - ✅ **3-DOF robot arm** (base_yaw, shoulder_pitch, elbow_pitch)
 - ✅ **MoveIt2 path planning** with collision checking
 - ✅ **RViz visualization** + MotionPlanning panel
-- ✅ **ros2_control** mock hardware (real motors ready)
 - ✅ **Production launch files** (demo + controllers)
 - ✅ **Fixed URDF** (cylinders, inertials, joint limits)
 
