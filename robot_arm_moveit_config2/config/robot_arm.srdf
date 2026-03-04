@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot name="robot_arm">
+
+  <!-- Planning group for the arm -->
+  <group name="arm">
+    <chain base_link="base_link" tip_link="ee_link"/>
+  </group>
+
+  <!-- End effector definition -->
+  <end_effector name="ee" parent_link="ee_link" group="arm"/>
+
+  <!-- Example disabled self collision (can be empty for now) -->
+  <disable_collisions link1="base_link" link2="ee_link" reason="Never"/>
+</robot>

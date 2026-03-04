@@ -1,0 +1,9 @@
+controller_names:
+  - fake_arm_controller
+
+fake_arm_controller:
+  type: fake_controller
+  joints:
+    - base_joint
+    - shoulder_joint
+    - elbow_joint
